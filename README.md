@@ -1,13 +1,13 @@
-# 🍲 yemekProje - Android Yemek Tarifi Uygulaması
+#  yemekProje - Android Yemek Tarifi Uygulaması
 
 `yemekProje`, kullanıcıların iştah açıcı yemek tariflerini keşfedebileceği, sevdikleri tarifleri favorilerine ekleyip kendi koleksiyonlarını oluşturabileceği modern bir Android mobil uygulamasıdır.
 
-## 🚀 Öne Çıkan Özellikler
+##  Öne Çıkan Özellikler
 
-* **🔐 Kullanıcı Kimlik Doğrulaması (Authentication):** Firebase Auth ile güvenli e-posta ve şifre tabanlı kayıt olma ve giriş yapma mimarisi.
-* **📱 Dinamik Tarif Listeleme:** `RecyclerView` ve özel `RecipeAdapter` kullanılarak performanslı ve akıcı liste görünümü.
-* **❤️ Bulut Tabanlı Favori Sistemi:** Firestore NoSQL veritabanı entegrasyonu ile favoriye alınan tariflerin anlık (real-time) olarak kullanıcı hesabına senkronize edilmesi.
-* **🖼️ Kullanıcı Dostu Arayüz (UI/UX):** Krem ve sıcak renk tonlarıyla tasarlanmış, sade ve şık fragment tabanlı navigasyon.
+* ** Kullanıcı Kimlik Doğrulaması (Authentication):** Firebase Auth ile güvenli e-posta ve şifre tabanlı kayıt olma ve giriş yapma mimarisi.
+* ** Dinamik Tarif Listeleme:** `RecyclerView` ve özel `RecipeAdapter` kullanılarak performanslı ve akıcı liste görünümü.
+* ** Bulut Tabanlı Favori Sistemi:** Firestore NoSQL veritabanı entegrasyonu ile favoriye alınan tariflerin anlık (real-time) olarak kullanıcı hesabına senkronize edilmesi.
+* ** Kullanıcı Dostu Arayüz (UI/UX):** Krem ve sıcak renk tonlarıyla tasarlanmış, sade ve şık fragment tabanlı navigasyon.
 
 ## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
 
@@ -44,7 +44,7 @@
 <img width="431" height="817" alt="Ekran görüntüsü 2026-07-27 105134" src="https://github.com/user-attachments/assets/b44ce6b0-86b5-48ea-b035-c8ce5e3634a0" />
 
 
-## 📂 Proje Mimarisi & Veri Yapısı
+## Proje Mimarisi & Veri Yapısı
 
 Firestore NoSQL veritabanında kullanıcı bazlı favori takibi şu hiyerarşi ile tutulmaktadır:
 
