@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kendi Tarifini Ekle"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#E65100"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:id="@+id/imgAddRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#E0E0E0"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_spoon"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"
+                android:padding="40dp"/>
+
+            <Button
+                android:id="@+id/btnPreviewImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Galeriden Fotoğraf Seç"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                style="@style/Widget.MaterialComponents.Button.TextButton"/>
+
+            <EditText
+                android:id="@+id/editAddRecipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Yemek Adı"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerCategory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/white"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <EditText
+                android:id="@+id/editAddMainIngredient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ana Malzeme (Örn: Tavuk)"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <EditText
+                android:id="@+id/editAddRecipeDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kısa Detay (Örn: 30 dk)"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <EditText
+                android:id="@+id/editAddIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Malzemeler"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:minLines="3"
+                android:gravity="top"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <EditText
+                android:id="@+id/editAddInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hazırlanış"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:minLines="3"
+                android:gravity="top"
+                android:layout_marginBottom="10dp"
+                android:elevation="2dp"/>
+
+            <EditText
+                android:id="@+id/editAddVideoUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="YouTube Link (Opsiyonel)"
+                android:background="@android:color/white"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="2dp"/>
+
+            <Button
+                android:id="@+id/btnAddRecipeToFirebase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarifi Yayınla"
+                android:backgroundTint="#E65100"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:padding="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBarAddRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>

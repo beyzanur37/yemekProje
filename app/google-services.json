@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1017816692439",
+    "project_id": "yemekproje-be5c9",
+    "storage_bucket": "yemekproje-be5c9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017816692439:android:13e479cddb56b793716292",
+        "android_client_info": {
+          "package_name": "com.example.yemekproje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasQKpkew8PjIAmC9F_d81lzYpnlf2fMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
