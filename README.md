@@ -9,7 +9,7 @@
 * ** Bulut Tabanlı Favori Sistemi:** Firestore NoSQL veritabanı entegrasyonu ile favoriye alınan tariflerin anlık (real-time) olarak kullanıcı hesabına senkronize edilmesi.
 * ** Kullanıcı Dostu Arayüz (UI/UX):** Krem ve sıcak renk tonlarıyla tasarlanmış, sade ve şık fragment tabanlı navigasyon.
 
-## 🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+##  Kullanılan Teknolojiler ve Kütüphaneler
 
 * **Dil:** Java
 * **Geliştirme Ortamı:** Android Studio
