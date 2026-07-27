@@ -27,3 +27,5 @@ users (Collection)
  └── {userId} (Document)
       └── favorites (Sub-collection)
            └── {recipeName} (Document)
+GİRİŞ EKRANI
+<img width="410" height="812" alt="Ekran görüntüsü 2026-07-27 104841" src="https://github.com/user-attachments/assets/1c0facaf-04d3-405f-9dcd-70703d47925f" />
